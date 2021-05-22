@@ -1,0 +1,888 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Materi">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/btn_kembali"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:clickable="true"
+                android:src="@drawable/ic_kembali" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="5dp"
+                android:fontFamily="@font/roboto_medium"
+                android:text="Back"
+                android:textColor="@color/colorWhite"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/topbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimaryDark"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/bgmateri" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_teori"
+                android:elevation="6dp"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_marginTop="16dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_medium"
+                        android:text="1) PENGERTIAN MATRIKS"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/roboto_medium"
+                        android:text="Matriks adalah kumpulan bilangan yang disusun secara baris atau kolom atau kedua-duanya dan di dalam suatu tanda kurung. Bilangan-bilangan yang membentuk suatu matriks disebut sebagai elemen-elemen matriks. Matriks digunakan untuk menyederhanakan penyampaian data, sehingga mudah untuk diolah."
+                        android:textSize="13sp" />
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/img1" />
+
+                    <ImageView
+                        android:layout_width="100sp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/img2" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/roboto_medium"
+                        android:text="Matriks A diatas terdiri dari 3 baris dan 3 kolom. Anda bisa mengatakan matriks berorodo 3 x 3."
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_medium"
+                        android:text="2)	JENIS-JENIS MATRIKS"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/roboto_medium"
+                        android:text="a. Matriks Baris\n\n
+Matriks baris adalah matriks yang terdiri atas satu baris saja.
+\n\nMisal:
+\n\nA = [46 43],
+\n\nB = [22 19 14 12]
+b. Matriks Kolom\n\n
+Matriks kolom adalah matriks yang terdiri atas satu kolom saja.
+\n\nMisal:"
+                        android:textSize="13sp" />
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/img3" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/roboto_medium"
+                        android:text="c)	Matriks Persegi Panjang\n\n
+Matriks persegi panjang adalah matriks yang banyak barisnya tidak sama dengan banyak kolomnya
+\n\nMisal: A ="
+                        android:textSize="13sp" />
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/img4" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/roboto_medium"
+                        android:text="d)	Matriks Persegi\n\n
+Matriks persegi adalah matriks yang mempunyai banyak baris dan kolom sama.
+"
+                        android:textSize="13sp" />
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/img5" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/roboto_medium"
+                        android:text="e)	Matriks Segitiga\n\n
+Matriks segitiga merupakan matriks segitiga yang memiliki elemen bernilai nol dengan pola segitiga disalah satu bagian kiri atau bagian kanan.
+\n\nMisal: A ="
+                        android:textSize="13sp" />
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="90dp"
+                        android:src="@drawable/img6" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/roboto_medium"
+                        android:text="f)	Matriks Diagonal\n\n
+Suatu matriks persegi disebut mariks diagonal jika setiap entri-entri yang terletak diluar diagonal utama bernilai nol.
+\nMisal="
+                        android:textSize="13sp" />
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="90dp"
+                        android:src="@drawable/img7" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/roboto_medium"
+                        android:text="Maka matriks persegi dengan pola “semua entrynya bernilai nol, kecuali entry diagonal utama tidak semua nol” disebut matriks diagonal."
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/roboto_medium"
+                        android:text="g)	Matriks Identitas\n\n
+Matriks Identitas merupakan matriks diagonal yang memiliki elem diagonalnya bernilai satu.
+\nMisal:
+"
+                        android:textSize="13sp" />
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="90dp"
+                        android:src="@drawable/img8" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/roboto_medium"
+                        android:text="h)	Matriks Nol\n\n
+Matriks nol merupakan matriks matriks yang sama elemennya bernilai nol.
+\nMisal:
+"
+                        android:textSize="13sp" />
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="90dp"
+                        android:src="@drawable/img9" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_medium"
+                        android:text="3)	KESAMAAN DUA MATRIKS"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/roboto_medium"
+                        android:text="Matriks A = (aij) dikatakan sama dengan matriks  B = (bij) jika dan hanya jika:
+\na.	Ordo matriks A sama dengan ordo matriks B
+\nb.	Setiap elemen yang seletak pada matriks A dan matriks B mempunyai nilai yang sama aij = bij (untuk semua nilai i dan j)
+"
+                        android:textSize="13sp" />
+
+                    <ImageView
+                        android:layout_width="270dp"
+                        android:layout_height="202dp"
+                        android:src="@drawable/img17" />
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="10dp"
+                        app:cardCornerRadius="10dp"
+                        app:cardElevation="5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <SeekBar
+                                android:id="@+id/positionBar1"
+                                android:layout_width="200dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="10dp"
+                                android:progressBackgroundTint="#00E676" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:gravity="center">
+
+                                    <TextView
+                                        android:id="@+id/elapseTimeLabel1"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/roboto_medium"
+                                        android:text="0:11"
+                                        android:textColor="#000"
+                                        android:textSize="12sp" />
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:gravity="center">
+
+                                    <TextView
+                                        android:id="@+id/remainingTimeLabel1"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/roboto_medium"
+                                        android:text="-1:49"
+                                        android:textColor="#000"
+                                        android:textSize="12sp" />
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <Button
+                                android:id="@+id/btnplay1"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="10dp"
+                                android:background="@drawable/ic_play"
+                                android:onClick="playBtnClick1" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <ImageView
+                        android:layout_width="270dp"
+                        android:layout_height="202dp"
+                        android:src="@drawable/img16" />
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="10dp"
+                        app:cardCornerRadius="10dp"
+                        app:cardElevation="5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <SeekBar
+                                android:id="@+id/positionBar2"
+                                android:layout_width="200dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="10dp"
+                                android:progressBackgroundTint="#00E676" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:gravity="center">
+
+                                    <TextView
+                                        android:id="@+id/elapseTimeLabel2"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/roboto_medium"
+                                        android:text="0:11"
+                                        android:textColor="#000"
+                                        android:textSize="12sp" />
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:gravity="center">
+
+                                    <TextView
+                                        android:id="@+id/remainingTimeLabel2"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/roboto_medium"
+                                        android:text="-1:49"
+                                        android:textColor="#000"
+                                        android:textSize="12sp" />
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <Button
+                                android:id="@+id/btnplay2"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="10dp"
+                                android:background="@drawable/ic_play"
+                                android:onClick="playBtnClick2" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_medium"
+                        android:text="4) OPERASI PADA MATRIKS"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/roboto_medium"
+                        android:text="a) Operasi Penjumlahan Matriks\n\n
+Untuk dua matriks A dan B dengan ordo sama, matriks Jumlah A+ B diperoleh dengan menjumlahkan elemen-elemen seletak dari A dan B.
+"
+                        android:textSize="13sp" />
+
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="90dp"
+                        android:src="@drawable/img11" />
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="10dp"
+                        app:cardCornerRadius="10dp"
+                        app:cardElevation="5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <SeekBar
+                                android:id="@+id/positionBar3"
+                                android:layout_width="200dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="10dp"
+                                android:progressBackgroundTint="#00E676" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:gravity="center">
+
+                                    <TextView
+                                        android:id="@+id/elapseTimeLabel3"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/roboto_medium"
+                                        android:text="0:11"
+                                        android:textColor="#000"
+                                        android:textSize="12sp" />
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:gravity="center">
+
+                                    <TextView
+                                        android:id="@+id/remainingTimeLabel3"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/roboto_medium"
+                                        android:text="-1:49"
+                                        android:textColor="#000"
+                                        android:textSize="12sp" />
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <Button
+                                android:id="@+id/btnplay3"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="10dp"
+                                android:background="@drawable/ic_play"
+                                android:onClick="playBtnClick3" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/roboto_medium"
+                        android:text="b) Operasi Pengurangan Matriks\n\n
+Untuk dua matriks A dan B dengan ordo sama, matriks Jumlah A- B diperoleh dengan mengurangkan elemen-elemen seletak dari A dan B.
+"
+                        android:textSize="13sp" />
+
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="90dp"
+                        android:src="@drawable/img12" />
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="10dp"
+                        app:cardCornerRadius="10dp"
+                        app:cardElevation="5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <SeekBar
+                                android:id="@+id/positionBar4"
+                                android:layout_width="200dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="10dp"
+                                android:progressBackgroundTint="#00E676" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:gravity="center">
+
+                                    <TextView
+                                        android:id="@+id/elapseTimeLabel4"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/roboto_medium"
+                                        android:text="0:11"
+                                        android:textColor="#000"
+                                        android:textSize="12sp" />
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:gravity="center">
+
+                                    <TextView
+                                        android:id="@+id/remainingTimeLabel4"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/roboto_medium"
+                                        android:text="-1:49"
+                                        android:textColor="#000"
+                                        android:textSize="12sp" />
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <Button
+                                android:id="@+id/btnplay4"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="10dp"
+                                android:background="@drawable/ic_play"
+                                android:onClick="playBtnClick4" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/roboto_medium"
+                        android:text="c) Operasi Perkalian Skalar pada Matriks\n\n
+Jika skalar dikalikan matriks maka akan diperoleh sebuah matriks yang elemen-elemennya merupakan perklaian skalar tersebut dengan setiap elemen matriks.
+\nJika: A = (aij) m x n maka k.A = k(aij) m x n = (kaij) m x n
+ \nKa = A.k (Komutatif perkalian)
+\n\nContoh:
+"
+                        android:textSize="13sp" />
+
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="90dp"
+                        android:src="@drawable/img13" />
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="10dp"
+                        app:cardCornerRadius="10dp"
+                        app:cardElevation="5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <SeekBar
+                                android:id="@+id/positionBar5"
+                                android:layout_width="200dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="10dp"
+                                android:progressBackgroundTint="#00E676" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:gravity="center">
+
+                                    <TextView
+                                        android:id="@+id/elapseTimeLabel5"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/roboto_medium"
+                                        android:text="0:11"
+                                        android:textColor="#000"
+                                        android:textSize="12sp" />
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:gravity="center">
+
+                                    <TextView
+                                        android:id="@+id/remainingTimeLabel5"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/roboto_medium"
+                                        android:text="-1:49"
+                                        android:textColor="#000"
+                                        android:textSize="12sp" />
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <Button
+                                android:id="@+id/btnplay5"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="10dp"
+                                android:background="@drawable/ic_play"
+                                android:onClick="playBtnClick5" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/roboto_medium"
+                        android:text="d) Operasi Perkalian Dua Matriks\n\n
+Matriks A dapat dikalikan dengan matriks B (A x B) jika banyak kolom A = banyak baris B. Misal Am x n dan Bn x k maka A x B = Cm x k dengan elemn-elemen  C merupakan penumlahan dari hasil kali elemen baris A dengan kolom B yang bersesuaian.
+\n\nContoh:
+"
+                        android:textSize="13sp" />
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="90dp"
+                        android:src="@drawable/img14" />
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="10dp"
+                        app:cardCornerRadius="10dp"
+                        app:cardElevation="5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <SeekBar
+                                android:id="@+id/positionBar6"
+                                android:layout_width="200dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="10dp"
+                                android:progressBackgroundTint="#00E676" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:gravity="center">
+
+                                    <TextView
+                                        android:id="@+id/elapseTimeLabel6"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/roboto_medium"
+                                        android:text="0:11"
+                                        android:textColor="#000"
+                                        android:textSize="12sp" />
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:gravity="center">
+
+                                    <TextView
+                                        android:id="@+id/remainingTimeLabel6"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/roboto_medium"
+                                        android:text="-1:49"
+                                        android:textColor="#000"
+                                        android:textSize="12sp" />
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <Button
+                                android:id="@+id/btnplay6"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="10dp"
+                                android:background="@drawable/ic_play"
+                                android:onClick="playBtnClick6" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_medium"
+                        android:text="5) TRANSPOSE MATRIKS"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/roboto_medium"
+                        android:text="Jika suatu matriks A dengan ordo m x n maka transpose dari A (ditulis At) adalah sebuah matriks yang diperoleh dengan menukar baris matriks A menjadi kolom.
+\nDengan demikian ordo At adalah n x m.
+\n\nContoh:
+"
+                        android:textSize="13sp" />
+
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/img15" />
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="10dp"
+                        app:cardCornerRadius="10dp"
+                        app:cardElevation="5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <SeekBar
+                                android:id="@+id/positionBar7"
+                                android:layout_width="200dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="10dp"
+                                android:progressBackgroundTint="#00E676" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:gravity="center">
+
+                                    <TextView
+                                        android:id="@+id/elapseTimeLabel7"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/roboto_medium"
+                                        android:text="0:11"
+                                        android:textColor="#000"
+                                        android:textSize="12sp" />
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:gravity="center">
+
+                                    <TextView
+                                        android:id="@+id/remainingTimeLabel7"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/roboto_medium"
+                                        android:text="-1:49"
+                                        android:textColor="#000"
+                                        android:textSize="12sp" />
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <Button
+                                android:id="@+id/btnplay7"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="10dp"
+                                android:background="@drawable/ic_play"
+                                android:onClick="playBtnClick7" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

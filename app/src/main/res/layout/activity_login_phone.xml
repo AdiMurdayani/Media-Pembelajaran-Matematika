@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context=".Activity.LoginPhone">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:src="@drawable/veryfikasi_nomor" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Verify Your Number"
+            android:textColor="@color/colorPrimary"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="24dp"
+            android:text="Please enter your Country Code \ndan Phone number for verification"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/code_nomor"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/textView2"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/bg_p_no"
+            android:enabled="false"
+            android:fontFamily="@font/roboto_medium"
+            android:hint="62"
+            android:inputType="text"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/edt_number"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/textView2"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="16dp"
+            android:layout_toRightOf="@+id/code_nomor"
+            android:background="@drawable/bg_p_no"
+            android:fontFamily="@font/roboto_medium"
+            android:hint="Phone"
+            android:inputType="phone"
+            android:padding="10dp" />
+
+        <Button
+            android:id="@+id/btn_generate_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/code_nomor"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/button"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Generate OTP"
+            android:textAllCaps="false"
+            android:textColor="@color/colorWhite"
+            android:textSize="18sp" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/btn_generate_phone"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:indeterminateTint="@color/colorPrimary"
+            android:progressTint="@color/colorPrimary"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/feedback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_generate_phone"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/roboto_medium"
+            android:textColor="#FF1744"
+            android:textSize="12sp"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+</ScrollView>

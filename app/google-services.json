@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "648270802654",
+    "project_id": "media-pembelajaran-matematika",
+    "storage_bucket": "media-pembelajaran-matematika.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648270802654:android:0191e12af1edb1a7eadc4f",
+        "android_client_info": {
+          "package_name": "com.adi.mediapembelajaranmatematika"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648270802654-i43d9hr8e7k1dop54g0jfvtsnc7m17kk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.adi.mediapembelajaranmatematika",
+            "certificate_hash": "99cff55818d73e1ec4cf1749f24c1523413411dc"
+          }
+        },
+        {
+          "client_id": "648270802654-sstb3a9gnq4drsm4snss2epo8b76b990.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAprGj9BVY22FqeKGooV7EZIHnVhk6-KjU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "648270802654-sstb3a9gnq4drsm4snss2epo8b76b990.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

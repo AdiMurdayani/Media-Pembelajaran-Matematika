@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:id="@+id/isi_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_nama_lengkap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_medium"
+                android:text="Nama Lengkap"
+                android:textColor="@color/colorBlack"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tv_jenis_kelamin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:fontFamily="@font/roboto_medium"
+                android:text="Jenis Kelamin"
+                android:textSize="9sp" />
+
+            <TextView
+                android:id="@+id/tv_jenis_kuis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:fontFamily="@font/roboto_medium"
+                android:text="Jenis Kuis"
+                android:textSize="9sp" />
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_nilai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_margin="5dp"
+            android:layout_toLeftOf="@id/btn_mulai_kuis_pilgan"
+            app:cardBackgroundColor="@color/colorPrimaryDark"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="Nilai: "
+                    android:textColor="@color/colorWhite"
+                    android:textSize="10sp"/>
+
+                <TextView
+                    android:id="@+id/tv_nilai"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="0"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="10sp"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btn_mulai_kuis_pilgan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="5dp"
+            android:clickable="true"
+            app:cardBackgroundColor="@color/colorBlueLight"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="5dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="Mulai Kuis"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="10sp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

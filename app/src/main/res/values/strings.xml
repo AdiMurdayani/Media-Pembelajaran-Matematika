@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Media Pembelajaran Matematika</string>
+    <string-array name="jenis_notelp">
+        <item>+62</item>
+        <item>+509</item>
+        <item>+44-1534</item>
+        <item>+49</item>
+        <item>+81</item>
+        <item>+1-876</item>
+        <item>+39</item>
+        <item>+972</item>
+        <item>+354</item>
+        <item>+353</item>
+        <item>+98</item>
+        <item>+964</item>
+        <item>+44</item>
+    </string-array>
+    <string-array name="jenis_kelamin">
+        <item>Perempuan</item>
+        <item>Laki-Laki</item>
+    </string-array>
+</resources>
