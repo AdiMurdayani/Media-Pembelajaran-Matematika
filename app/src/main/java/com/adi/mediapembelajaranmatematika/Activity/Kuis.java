@@ -26,7 +26,7 @@ import com.google.firebase.database.FirebaseDatabase;
 public class Kuis extends AppCompatActivity {
 
     private ImageView btn_kembali;
-    private CardView btn_kuis1, btn_kuis2, btn_materi, btn_nilai;
+    private CardView btn_kuis1, btn_kuis2;
 
     private TextInputEditText edt_nama, edt_nilai, edt_nama_kuis;
     private Spinner sp_kelamin;
@@ -65,20 +65,6 @@ public class Kuis extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 inputNama2();
-            }
-        });
-        btn_materi = findViewById(R.id.btn_materi);
-        btn_materi.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(Kuis.this, Materi.class));
-            }
-        });
-        btn_nilai = findViewById(R.id.btn_nilai);
-        btn_nilai.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(Kuis.this, Nilai.class));
             }
         });
     }
@@ -133,7 +119,7 @@ public class Kuis extends AppCompatActivity {
                     return;
                 }
 
-                reference.child("kuis_essay").child(userID).child("daftar_nilai").push()
+                reference.child("kuis_essay").child("daftar_nilai").push()
                         .setValue(new DaftarNilaiModels(nama, kelamin, nilai_hasil, jenis_kuis))
                         .addOnSuccessListener(Kuis.this, new OnSuccessListener<Void>() {
                                     @Override
@@ -211,7 +197,7 @@ public class Kuis extends AppCompatActivity {
                     return;
                 }
 
-                reference.child("kuis_pilgan").child(userID).child("daftar_nilai").push()
+                reference.child("kuis_pilgan").child("daftar_nilai").push()
                         .setValue(new DaftarNilaiModels(nama, kelamin, nilai_hasil, jenis_kuis))
                         .addOnSuccessListener(Kuis.this, new OnSuccessListener<Void>() {
                                     @Override

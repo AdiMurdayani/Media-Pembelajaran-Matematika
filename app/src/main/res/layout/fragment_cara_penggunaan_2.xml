@@ -47,7 +47,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="5dp"
-                        android:fontFamily="@font/roboto_mediumitalic"
+                        android:fontFamily="@font/roboto_medium"
                         android:text="1.\tMenu Kuis Pilihan Ganda"
                         android:textSize="13sp" />
 
@@ -55,14 +55,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="5dp"
-                        android:fontFamily="@font/roboto_lightitalic"
+                        android:fontFamily="@font/roboto_medium"
                         android:text="\tMenu Kuis Pilihan Ganda: digunakan untuk menampilkan halaman kuis pilihan ganda. Ketika pengguna ingin mengakses kuis pilihan ganda, pengguna diwajibkan untuk mengisi form nama agar bisa mengakses halaman kuis yang dipilih."
                         android:textSize="12sp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/roboto_mediumitalic"
+                        android:fontFamily="@font/roboto_medium"
                         android:text="2.\tMenu Kuis Essay"
                         android:textSize="13sp" />
 
@@ -70,7 +70,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="5dp"
-                        android:fontFamily="@font/roboto_lightitalic"
+                        android:fontFamily="@font/roboto_medium"
                         android:text="\tMenu Materi: digunakan untuk menampilkan halaman kuis essay. Ketika pengguna ingin mengakses kuis essay, pengguna diwajibkan untuk mengisi form nama agar bisa mengakses halaman kuis yang dipilih."
                         android:textSize="12sp" />
 

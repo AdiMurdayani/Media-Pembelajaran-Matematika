@@ -143,14 +143,14 @@ public class KuisPilGan {
                     "D.\t-2, 1 dan 2"
             },
             {
-                    "[1\t\t\t3]" +
+                    "[1\t\t\t\t3]" +
                             "\n[9\t\t\t15]",
                     "[-1\t\t\t-3]" +
                             "\n[-9\t\t\t\t1]",
                     "[-1\t\t\t-3]" +
-                            "\n[\t9\t\t-1]",
-                    "[-1\t\t\t\t3]" +
-                            "\n[-9\t\t\t-15]"
+                            "\n[\t9\t\t\t\t-1]",
+                    "[-1\t\t\t.3]" +
+                            "\n[-9\t\t-15]"
             },
             {
                     "A.\t4",
@@ -165,18 +165,18 @@ public class KuisPilGan {
                     "D.\t3"
             },
             {
-                    "[3\t\t\t-1\t\t\t\t2]" +
-                            "\n[0\t\t\t\t6\t\t\t4]" +
-                            "\n[1\t\t\t\t5\t\t\t1]",
-                    "[-3\t\t\t\t-1\t\t\t\t2]" +
-                            "\n[\t0\t\t\t\t6\t\t\t4]" +
+                    "[3\t\t-1\t\t\t2]" +
+                            "\n[0\t\t\t6\t\t\t4]" +
+                            "\n[1\t\t\t5\t\t\t1]",
+                    "[-3\t\t-1\t\t\t\t2]" +
+                            "\n[\t0\t\t\t.6\t\t\t\t4]" +
                             "\n[\t1\t\t\t-5\t\t\t-1]",
-                    "[0\t\t\t-2\t\t\t\t4]" +
+                    "[0\t\t\t-2\t\t\t4]" +
                             "\n[0\t\t\t12\t\t\t8]" +
-                            "\n[2\t\t\t\t0\t\t\t0]",
-                    "[\t0\t\t\t4\t\t\t-2]" +
+                            "\n[2\t\t\t.0\t\t\t0]",
+                    "[\t0\t\t\t\t4\t\t\t-2]" +
                             "\n[12\t\t\t8\t\t\t\t0]" +
-                            "\n[\t0\t\t\t2\t\t\t\t0]"
+                            "\n[\t0\t\t\t\t2\t\t\t\t0]"
             },
             {
                     "A.\t(5 3 1)",

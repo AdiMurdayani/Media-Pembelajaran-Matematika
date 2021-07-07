@@ -144,7 +144,6 @@ public class KuisPilihanGanda extends AppCompatActivity {
         String getKey = getIntent().getStringExtra("key");
 
         reference.child("kuis_pilgan")
-                .child(userID)
                 .child("daftar_nilai")
                 .child(getKey)
                 .setValue(kuisPilgan)

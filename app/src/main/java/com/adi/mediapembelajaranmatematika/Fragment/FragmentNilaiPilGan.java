@@ -76,7 +76,7 @@ public class FragmentNilaiPilGan extends Fragment {
     private void getData() {
         refreshLayout.setRefreshing(true);
         reference = FirebaseDatabase.getInstance().getReference();
-        reference.child("kuis_pilgan").child(auth.getUid()).child("daftar_nilai")
+        reference.child("kuis_pilgan").child("daftar_nilai")
                 .addValueEventListener(new ValueEventListener() {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot snapshot) {
@@ -86,7 +86,7 @@ public class FragmentNilaiPilGan extends Fragment {
                         for (DataSnapshot data : snapshot.getChildren()) {
                             DaftarNilaiModels daftarNilaiModels = data.getValue(DaftarNilaiModels.class);
 
-                            daftarNilaiModels.setKey(data.getKey());
+//                            daftarNilaiModels.setKey(data.getKey());
                             listnilai.add(daftarNilaiModels);
                             refreshLayout.setRefreshing(false);
                         }

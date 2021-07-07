@@ -47,7 +47,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="5dp"
-                        android:fontFamily="@font/roboto_mediumitalic"
+                        android:fontFamily="@font/roboto_medium"
                         android:text="1.\tMenu Kompetensi Dasar"
                         android:textSize="13sp" />
 
@@ -55,14 +55,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="5dp"
-                        android:fontFamily="@font/roboto_lightitalic"
+                        android:fontFamily="@font/roboto_medium"
                         android:text="\tMenu Kompetensi Dasar: digunakan untuk menampilkan kompetesi dasar materi matimatika matriks. di halaman ini pengguna dapat melihat kompetensi dasar tersebut dengan cara klik tombol kompetensi dasar."
                         android:textSize="12sp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/roboto_mediumitalic"
+                        android:fontFamily="@font/roboto_medium"
                         android:text="2.\tMenu Materi"
                         android:textSize="13sp" />
 
@@ -70,14 +70,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="5dp"
-                        android:fontFamily="@font/roboto_lightitalic"
+                        android:fontFamily="@font/roboto_medium"
                         android:text="\tMenu Materi: digunakan untuk menampilkan materi matimatika matriks. di halaman ini pengguna dapat melihat materi tersebut dengan cara klik tombol materi."
                         android:textSize="12sp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/roboto_mediumitalic"
+                        android:fontFamily="@font/roboto_medium"
                         android:text="3.\tMenu Kuis"
                         android:textSize="13sp" />
 
@@ -85,14 +85,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="5dp"
-                        android:fontFamily="@font/roboto_lightitalic"
+                        android:fontFamily="@font/roboto_medium"
                         android:text="\tMenu Kuis: digunakan untuk menampilkan halaman kuis matimatika matriks. di halaman ini pengguna dapat memilih jenis kuis, di halaman ini kuis terdiri dari dua yaitu, kuis pilihan ganda dan kuis essay. Di halamanan tersebut pengguna bisa memilih kuis yang diinginkan."
                         android:textSize="12sp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/roboto_mediumitalic"
+                        android:fontFamily="@font/roboto_medium"
                         android:text="4.\tMenu Nilai"
                         android:textSize="13sp" />
 
@@ -100,14 +100,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="5dp"
-                        android:fontFamily="@font/roboto_lightitalic"
+                        android:fontFamily="@font/roboto_medium"
                         android:text="\tMenu Nilai: digunakan untuk menampilkan lis nilai dari siswa yang telah menjawab soal-soal kuis yang di sediakan. di halaman ini pengguna dapat melihat lis nama dan nilai dari siswa yang telah menyelesaikan soal kuis. Untuk mengakses halaman ini pengguna harus klik tombol nilai di aplikasi."
                         android:textSize="12sp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/roboto_mediumitalic"
+                        android:fontFamily="@font/roboto_medium"
                         android:text="5.\tMenu Cara Penggunaan"
                         android:textSize="13sp" />
 
@@ -115,7 +115,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="5dp"
-                        android:fontFamily="@font/roboto_lightitalic"
+                        android:fontFamily="@font/roboto_medium"
                         android:text="\tMenu Cara Penggunaan: digunakan untuk menampilkan cara penggunaan aplikasi media pembelajaran matematika matriks."
                         android:textSize="12sp" />
                 </LinearLayout>

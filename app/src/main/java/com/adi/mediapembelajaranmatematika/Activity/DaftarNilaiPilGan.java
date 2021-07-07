@@ -81,7 +81,7 @@ public class DaftarNilaiPilGan extends AppCompatActivity {
 
         refreshLayout.setRefreshing(true);
         reference = FirebaseDatabase.getInstance().getReference();
-        reference.child("kuis_pilgan").child(auth.getUid()).child("daftar_nilai")
+        reference.child("kuis_pilgan").child("daftar_nilai")
                 .addValueEventListener(new ValueEventListener() {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot snapshot) {

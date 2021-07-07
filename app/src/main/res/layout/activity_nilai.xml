@@ -96,6 +96,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center_vertical"
                                 android:layout_marginStart="5dp"
+                                android:lines="1"
                                 android:fontFamily="@font/roboto_medium"
                                 android:text="Nilai Kuis Pilihan Ganda"
                                 android:textColor="@color/colorWhite"
